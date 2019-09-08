@@ -15,7 +15,7 @@ const myFn = (a, b) => {
   console.log("result: ", a + b);
 };
 
-const myDebouncedFn = debounceAnimationFrame(myAwesomeFunction);
+const myDebouncedFn = debounceAnimationFrame(myFn);
 
 myDebouncedFn(1, 2);
 ```
