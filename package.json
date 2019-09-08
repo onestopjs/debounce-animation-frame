@@ -1,6 +1,6 @@
 {
   "name": "debounce-animation-frame",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Martin Koparanov",
   "description": "Debounce your functions with requestAnimationFrame",
   "main": "dist/index.js",
