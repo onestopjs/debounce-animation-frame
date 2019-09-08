@@ -27,7 +27,7 @@ it('calls the passed function', () => {
 
 it('resolves with the correct result', () => {
   const mockFn = jest.fn().mockImplementation(number => number*2);
-  const debounced = debounceAnimationFrame<number>(mockFn);
+  const debounced = debounceAnimationFrame(mockFn);
   return debounced(2).then(result => {
     expect(result).toEqual(4);
   })

@@ -1,10 +1,10 @@
-const debounceAnimationFrame = <T>(fn: Function) => {
+const debounceAnimationFrame = <T extends (...args: any[]) => any>(fn: T) => {
   let timeout: number;
-  const debouncedFn = (...args: any) => {
+  const debouncedFn = (...args: Parameters<T>) => {
     cancelAnimationFrame(timeout);
-    return new Promise<T>(resolve => {
+    return new Promise<ReturnType<T>>(resolve => {
       timeout = requestAnimationFrame(() => {
-        const result: T = fn(...args);
+        const result: ReturnType<T> = fn(...args);
         resolve(result);
       });
     })
