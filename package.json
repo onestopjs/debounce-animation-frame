@@ -9,14 +9,27 @@
     "build": "tsc",
     "test": "jest"
   },
-  "files": [
-    "dist/**/*"
-  ],
-  "license": "ISC",
   "devDependencies": {
     "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.6.2"
-  }
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/PsychedMagnet/debounce-animation-frame",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PsychedMagnet/debounce-animation-frame.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PsychedMagnet/debounce-animation-frame/issues"
+  },
+  "keywords": [
+    "debounce",
+    "animation-frame",
+    "request-animation-frame"
+  ]
 }
