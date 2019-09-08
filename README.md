@@ -33,6 +33,8 @@ debounceAnimationFrame: <F extends (...args: any[]) => any>(fn: F) => (...args: 
 ```
 The promise returned resolves with the result of the passed function.
 
+Keep in mind that in most cases, you may not need this promise, but I still added the functionality if you ever need it.
+
 ## Use cases and motivation
 The use case that made me think about the idea is in my React application, I had a onMouseMove handler which sets the state with the current mouse position. Well, it makes no sense to set the state on every mouse move if most of them won't even be seen, so debouncing it like that seemed the best option. Now, the state is updated only when the result will actually be seen.
 
