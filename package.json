@@ -1,0 +1,19 @@
+{
+  "name": "debounce-animation-frame",
+  "version": "0.0.1",
+  "author": "Martin Koparanov",
+  "description": "Debounce your functions with requestAnimationFrame",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.6.2"
+  }
+}
