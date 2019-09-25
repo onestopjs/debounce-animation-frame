@@ -1,6 +1,6 @@
 {
   "name": "debounce-animation-frame",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Martin Koparanov",
   "description": "Debounce your functions with requestAnimationFrame",
   "main": "dist/index.js",
@@ -19,13 +19,13 @@
     "dist/**/*"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/PsychedMagnet/debounce-animation-frame",
+  "homepage": "https://github.com/onestopjs/debounce-animation-frame",
   "repository": {
     "type": "git",
-    "url": "https://github.com/PsychedMagnet/debounce-animation-frame.git"
+    "url": "https://github.com/onestopjs/debounce-animation-frame.git"
   },
   "bugs": {
-    "url": "https://github.com/PsychedMagnet/debounce-animation-frame/issues"
+    "url": "https://github.com/onestopjs/debounce-animation-frame/issues"
   },
   "keywords": [
     "debounce",
